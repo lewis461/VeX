@@ -1,0 +1,25 @@
+# Build artifacts
+/bin/
+/faiss/
+build/
+*.o
+*.a
+*.so
+*.so.*
+
+# Vendored FAISS checkout (fetched by build.sh)
+faiss/
+
+# Data and index artifacts
+*.fvecs
+*.ivecs
+*.index
+partitions.bin
+vex_index/
+*_index/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
